@@ -2,7 +2,7 @@
 
 while true
 do 
-  curl $(minikube -p 9steps ip):$(kubectl get service/myboot -o jsonpath="{.spec.ports[*].nodePort}" -n myspace)
+  curl http://35.221.160.117:8080/
   sleep .2;
 done
 
