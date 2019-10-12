@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mybootcanary
-        image: 9stepsawesome/myboot:v3
+        image: gcr.io/radiant-galaxy-247914/myboot:v3
         ports:
           - containerPort: 8080
         envFrom:

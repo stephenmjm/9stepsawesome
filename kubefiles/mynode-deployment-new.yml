@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mynodenew
-        image: 9stepsawesome/mynode:v2     
+        image: gcr.io/radiant-galaxy-247914/mynode:v2     
         ports:
           - containerPort: 8000
 
